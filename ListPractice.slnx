@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ListPractice/ListPractice.csproj" />
+  <Project Path="Utils/Utils.csproj" />
+</Solution>
