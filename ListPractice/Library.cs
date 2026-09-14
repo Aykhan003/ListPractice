@@ -13,12 +13,12 @@ namespace ListPractice
             {
                 if (item.Name == book.Name && item.IsDeleted == false)
                 {
-                    throw new Utils.AlreadyExistsException("Book already exists");
+                    throw new AlreadyExistsException("Book already exists");
                 }
             }
             if (Books.Count >= BookLimit)
             {
-                throw new Utils.CapacityLimitException("Book limit exceeded");
+                throw new CapacityLimitException("Book limit exceeded");
             }
             Books.Add(book);
         }
